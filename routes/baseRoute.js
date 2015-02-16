@@ -6,22 +6,22 @@
     module.exports = (function() {
 
         var index = function(request, response) {
-            response.send("501", {error: "This type of request is not supported for the requested resource"});
+            response.send("405", {error: "This type of request is not supported for the requested resource"});
         };
         var create = function(request, response){
-            response.send("501", {error: "This type of request is not supported for the requested resource"});
+            response.send("405", {error: "This type of request is not supported for the requested resource"});
         };
         var show = function(request, response) {
-            response.send("501", {error: "This type of request is not supported for the requested resource"});
+            response.send("405", {error: "This type of request is not supported for the requested resource"});
         };
         var edit = function(request, response) {
-            response.send("501", {error: "This type of request is not supported for the requested resource"});
+            response.send("405", {error: "This type of request is not supported for the requested resource"});
         };
         var update = function(request, response) {
-            response.send("501", {error: "This type of request is not supported for the requested resource"});
+            response.send("405", {error: "This type of request is not supported for the requested resource"});
         };
         var destroy = function(request, response) {
-            response.send("501", {error: "This type of request is not supported for the requested resource"});
+            response.send("405", {error: "This type of request is not supported for the requested resource"});
         };
 
         var baseRoute = {
