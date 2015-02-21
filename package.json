@@ -21,7 +21,7 @@
     "jsai-queuing": "~0.0.14",
     "jsai-ruleengine": "0.0.6",
     "jsai-servicemessage": "~0.0.12",
-    "jsai-servicemessage-persistence": "0.0.1",
+    "jsai-servicemessage-persistence": "0.0.2",
     "lodash": "^3.3.0",
     "morgan": "^1.5.1",
     "passport": "^0.2.1",
